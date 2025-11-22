@@ -1,4 +1,4 @@
-# Simple Java 17 HTTP Server
+# Simple Java 21 HTTP Server
 
 This is a simple HTTP server written in the [Java](https://www.java.com/en/) programming language.
 
@@ -6,7 +6,7 @@ To run this example on Unikraft Cloud, first [install the `kraft` CLI tool](http
 Then clone this examples repository and `cd` into this directory, and invoke:
 
 ```
-kraft cloud deploy --metro fra -p 443:8080 -M 512 .
+kraft cloud deploy --metro fra -p 443:8080 -M 1024 .
 ```
 
 The command will build and deploy the `SimpleHTTPServer.java` source code file.

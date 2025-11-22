@@ -1,6 +1,3 @@
-//Add Kraftfile for Java21
-
-
 spec: v0.6
 
 runtime: base-compat:latest
@@ -12,7 +9,5 @@ labels:
 
 rootfs: ./Dockerfile
 
-# CALEA A FOST ACTUALIZATĂ DE LA JAVA 17 LA JAVA 21
 cmd: ["/usr/lib/jvm/java-21-openjdk-amd64/bin/java", "-classpath", "/usr/src/", "SimpleHttpServer"]
-
 
